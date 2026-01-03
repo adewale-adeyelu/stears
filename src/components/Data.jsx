@@ -1,6 +1,6 @@
 const Data = () => {
     return (  
-        <section className="bg-white px-3 md:px-10 lg:px-18 py-10">
+        <section className="bg-white px-4 md:px-10 lg:px-18 py-10">
             <h1 className="text-black text-2xl font-semibold">
                 Open Data
             </h1>
@@ -17,19 +17,19 @@ const Data = () => {
                     </h1>
                     <div className="py-5 space-y-2 px-3">
                         <div className="flex space-x-3">
-                            <div className="border w-2 h-2 border-black mt-3 bg-black rounded-full"></div>
+                            <div className="border w-2 h-1 md:h-2 border-black mt-3 bg-black rounded-full"></div>
                             <p className="text-md md:text-lg text-black">
                                 Approval Rating Index which measured the country’s approval of policy implementations
                             </p>
                         </div>
                         <div className="flex space-x-3">
-                            <div className="border w-2 h-2 border-black mt-3 bg-black rounded-full"></div>
+                            <div className="border w-2 h-1 md:h-2 border-black mt-3 bg-black rounded-full"></div>
                             <p className="text-md md:text-lg text-black">
                                 Consumer Expectations Index, which monitors how Nigerians feel about the future
                             </p>
                         </div>
                         <div className="flex space-x-3">
-                            <div className="border w-2 h-2 border-black mt-3 bg-black rounded-full"></div>
+                            <div className="border w-2 h-1 md:h-2 border-black mt-3 bg-black rounded-full"></div>
                             <p className="text-md md:text-lg text-black">
                                 Confidence Score, which gauges Nigerian’s confidence and trust in institutions
                             </p>

@@ -14,7 +14,7 @@ const Empowerment = () => {
                             Evaluate investments opportunities
                         </h1>
                     </div>
-                    <p className="text-black font-semibold text-md">
+                    <p className="text-black font-semibold text-sm md:text-md">
                         Stears helps you discover which sectors are growing <br className="hidden md:block" /> and how much capital has been invested over time by industry, vertical, deal type, and more.
                     </p>
                 </div>
@@ -25,7 +25,7 @@ const Empowerment = () => {
                             Identify macro & industry trends
                         </h1>
                     </div>
-                    <p className="text-black font-semibold text-md">
+                    <p className="text-black font-semibold text-sm md:text-md">
                         Stears’ Country Risk helps you put your <br className="hidden md:block" /> opportunities in broader market context by letting <br className="hidden md:block" /> you see how African economies are performing.
                     </p>
                 </div>
@@ -36,7 +36,7 @@ const Empowerment = () => {
                             Conduct market analysis
                         </h1>
                     </div>
-                    <p className="text-black font-semibold text-md">
+                    <p className="text-black font-semibold text-sm md:text-md">
                         Stears’ exclusive research allows you to monitor, <br className="hidden md:block" /> analyse and understand promising trends shaping <br className="hidden md:block" /> markets
                     </p>
                 </div>
