@@ -4,12 +4,12 @@ const Data = () => {
             <h1 className="text-black text-2xl font-semibold">
                 Open Data
             </h1>
-            <h1 className="text-black text-3xl font-bold pt-3">
+            <h1 className="text-black text-xl md:text-3xl font-bold pt-3">
                 Data collection to understand citizen sentiment
             </h1>
-            <div className="grid lg:grid-cols-2 gap-10 items-center py-5">
+            <div className="grid lg:grid-cols-2 gap-10 items-center md:py-5">
                 <div>
-                    <p className="text-[#4b5563] font-semibold text-lg py-5">
+                    <p className="text-[#4b5563] font-semibold text-md md:text-lg py-3 md:py-5">
                         Stears conducted a multi-dimensional assessment of trust levels in key national institutions, generating detailed profiles for policy development and institutional reform. The data was used to design a public index that evaluates consumer sentiments and expectations in response to political shifts and policy advancements.
                     </p>
                     <h1 className="text-black font-bold text-2xl">
@@ -18,19 +18,19 @@ const Data = () => {
                     <div className="py-5 space-y-2 px-3">
                         <div className="flex space-x-3">
                             <div className="border w-2 h-2 border-black mt-3 bg-black rounded-full"></div>
-                            <p className="text-lg text-black">
+                            <p className="text-md md:text-lg text-black">
                                 Approval Rating Index which measured the country’s approval of policy implementations
                             </p>
                         </div>
                         <div className="flex space-x-3">
                             <div className="border w-2 h-2 border-black mt-3 bg-black rounded-full"></div>
-                            <p className="text-lg text-black">
+                            <p className="text-md md:text-lg text-black">
                                 Consumer Expectations Index, which monitors how Nigerians feel about the future
                             </p>
                         </div>
                         <div className="flex space-x-3">
                             <div className="border w-2 h-2 border-black mt-3 bg-black rounded-full"></div>
-                            <p className="text-lg text-black">
+                            <p className="text-md md:text-lg text-black">
                                 Confidence Score, which gauges Nigerian’s confidence and trust in institutions
                             </p>
                         </div>

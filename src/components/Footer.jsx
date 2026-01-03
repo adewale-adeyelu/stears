@@ -59,41 +59,41 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="md:px-5 space-y-4">
-                        <h1 className="text-white text-2xl font-semibold">
+                        <h1 className="text-white text-lg md:text-2xl font-semibold">
                             About Stears
                         </h1>
-                        <p className="text-white text-md font-semibold">
+                        <p className="text-white text-sm md:text-md font-semibold">
                             Stears is Africa’s most comprehensive financial database and source of market intelligence for global funds investing in Africa.
                         </p>
-                        <p className="text-[#4b5563] text-md font-semibold">
+                        <p className="text-[#4b5563] text-sm md:text-md font-semibold">
                             Copyright © Stears Information Limited 2025 All rights reserved. This material, and other digital content on this website, may not be reproduced, published, broadcast, rewritten or redistributed in whole or in part without written permission from Stears.
                         </p>
                         <div className="flex items-center space-x-5">
                             <a href="">
-                                <img src="/instagram-img.svg" alt="investment" className="w-6" />
+                                <img src="/instagram-img.svg" alt="investment" className="w-4 md:w-6" />
                             </a>
                             <a href="">
-                                <img src="/x-img.svg" alt="x" className="w-6" />
+                                <img src="/x-img.svg" alt="x" className="w-4 md:w-6" />
                             </a>
                             <a href="">
-                                <img src="/linkedin.svg" alt="linkedin" className="w-6" />
+                                <img src="/linkedin.svg" alt="linkedin" className="w-4 md:w-6" />
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="flex space-x-3 justify-center items-center pt-7">
-                <p className="text-[#4b5563] text-lg font-semibold">
+                <p className="text-[#4b5563] text-md md:text-lg font-semibold">
                     <a href="">
                         Privacy Policy
                     </a>
                 </p>
-                <p className="text-[#4b5563] text-lg font-semibold">
+                <p className="text-[#4b5563] text-md md:text-lg font-semibold">
                     <a href="">
                         Terms of use
                     </a>
                 </p>
-                <p className="text-[#4b5563] text-lg font-semibold">
+                <p className="text-[#4b5563] text-md md:text-lg font-semibold">
                     <a href="">
                         Contact
                     </a> 

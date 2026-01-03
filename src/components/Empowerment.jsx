@@ -3,7 +3,7 @@ import { Globe, Search, TrendingUp } from "lucide-react";
 const Empowerment = () => {
     return (  
         <section className="bg-[#f3f4f6] px-5 md:px-10 lg:px-18 py-10">
-            <h1 className="text-2xl font-bold text-[#000000]">
+            <h1 className="text-xl md:text-2xl font-bold text-[#000000]">
                 We empower our customers to
             </h1>
             <div className="grid md:grid-cols-3 gap-8 items-center py-7">
@@ -14,8 +14,8 @@ const Empowerment = () => {
                             Evaluate investments opportunities
                         </h1>
                     </div>
-                    <p className="text-black font-semibold textmdm">
-                        Stears helps you discover which sectors are growing <br /> and how much capital has been invested over time <nr /> by industry, vertical, deal type, and more.
+                    <p className="text-black font-semibold text-md">
+                        Stears helps you discover which sectors are growing <br className="hidden md:block" /> and how much capital has been invested over time by industry, vertical, deal type, and more.
                     </p>
                 </div>
                 <div className="space-y-2">
@@ -25,8 +25,8 @@ const Empowerment = () => {
                             Identify macro & industry trends
                         </h1>
                     </div>
-                    <p className="text-black font-semibold textmdm">
-                        Stears’ Country Risk helps you put your <br /> opportunities in broader market context by letting <br /> you see how African economies are performing.
+                    <p className="text-black font-semibold text-md">
+                        Stears’ Country Risk helps you put your <br className="hidden md:block" /> opportunities in broader market context by letting <br className="hidden md:block" /> you see how African economies are performing.
                     </p>
                 </div>
                 <div className="space-y-2">
@@ -36,8 +36,8 @@ const Empowerment = () => {
                             Conduct market analysis
                         </h1>
                     </div>
-                    <p className="text-black font-semibold textmdm">
-                        Stears’ exclusive research allows you to monitor, <br /> analyse and understand promising trends shaping <br /> markets
+                    <p className="text-black font-semibold text-md">
+                        Stears’ exclusive research allows you to monitor, <br className="hidden md:block" /> analyse and understand promising trends shaping <br className="hidden md:block" /> markets
                     </p>
                 </div>
             </div>
